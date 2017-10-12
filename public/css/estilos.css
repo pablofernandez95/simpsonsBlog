@@ -1,0 +1,213 @@
+body{
+	background-color:beige;
+}
+
+header{
+	background-color:#FFD700;
+	color:white;
+	z-index:100;
+}
+	
+main{
+		background:#eee;
+	}
+
+	h2{
+		text-align:center;
+	}
+	
+#contenedor{
+	margin-top:190px;
+}
+#logo{
+	width:200px;
+}
+
+img.logos{
+
+	display: block;
+		margin-left: auto;
+	margin-right: auto;
+	margin-bottom:30px;
+}
+footer{
+	background-color:khaki;
+	margin-top:20px;
+}
+
+article{
+	background-color:#e9ebee;
+	/* background:white; */
+}
+#body_registro{
+	margin-top:60px;
+	padding-right:0px;
+}
+
+#body_registro span{
+	margin-right:10px;
+}
+
+#body_login span{
+	margin-right:10px;
+	
+}
+#personajes{
+	display:inline-block;
+	
+}
+
+.header_post img{
+	width:68px;
+	height:68px;
+	
+}
+
+#post{
+	/* background-color:#A8A5A6; */
+	background-color:#fff;
+
+	margin-bottom: 30px;
+	padding: 20px;
+	padding-bottom:10px;
+
+	border:1px #fffff;
+
+}
+ 
+ #post .header_post{
+	 margin-top: 40px;
+	 margin-bottom:10px;
+	 border-top: 2px solid black;
+ }
+ #post .header_post img{
+	 margin-right:10px;
+ }
+ 
+ span.description{
+	 color:#999;
+	 font-size:13px;
+	 display:block; 
+	 text-align:right;
+ }
+
+#post .body_post img{
+	width:auto;
+	height:auto;
+	margin:0 auto;
+}
+
+#post .comment_body{
+	margin-top:10px;
+	background-color:#f6f7f9;
+	border: #f0f0f0;
+}
+
+#post .totalPost{
+	background-color: #82ff23;
+}
+ 
+#personajes div img{
+	display:block;
+	width:124px;
+	height:170px;
+	background-color:yellow;
+	margin-right:20px;
+} 
+
+#personajes div img:hover{
+	background: rgba(100,149,237,0.5);
+}
+
+#boton{
+	transition:0.3s;
+}
+
+#boton:hover{
+	transform: scale(1.1);
+	z-index:10;
+	border: 2px solid black;
+	/*letter-spacing:3px;*/
+	background-color:white;
+}
+
+ul.pagination.center{
+	text-align:center;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+#1{
+	display:none;
+}
+
+
+
+/*Ejemplos de bootstrap descargados*/
+
+#custom-search-input{
+	padding: 3px;
+	border: solid 1px #E4E4E4;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+#custom-search-input input{
+	border: 0;
+	box-shadow: none;
+}
+
+#custom-search-input button{
+	margin: 2px 0 0 0;
+	background: none;
+	box-shadow: none;
+	border: 0;
+	color: #666666;
+	padding: 0 8px 0 10px;
+	border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+	border: 0;
+	box-shadow: none;
+	border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+	font-size: 23px;
+}
+
+/*---------------------------*/
+.social:hover {
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-o-transform: scale(1.4);
+}
+.social {
+	-webkit-transform: scale(1.0);
+	/* Browser Variations: */
+
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	margin-right: 15px;
+}
+
+
+/*
+    Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+	color: #3B5998;
+}
+#social-tw:hover {
+	color: #4099FF;
+}
+#social-gp:hover {
+	color: #d34836;
+}
+#social-em:hover {
+	color: #f39c12;
+}
